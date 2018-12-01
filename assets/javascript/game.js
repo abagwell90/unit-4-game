@@ -89,6 +89,7 @@ $("#instructions").click(function () {
 
 $("#playagain").click(function () {
   initGame();
+  location.reload(true);
 });
 
 var zoom1across = function () {
